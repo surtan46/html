@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>HTML FORMS</title>
+</head>
+<body>
+    <h1>sign up</h1>
+    <!--Discuss HTTP methods and status codes-->
+     <!--semantics vs non-semantic elements-->
+    <form action="https://example.com/signup" method="POST">
+        <label for="fullname">Full name</label>
+        <input type="text" name="fullname" id="fullname"> <br>
+
+        <label for="email" >Email</label>
+        <input type="email" name="email" id="email"> <br>
+
+        <label for="age">Age</label>//////
+        <input type="number" name="age" id="age" /> <br/>
+
+        <label for="graduation">graduation date</label>
+        <input type="date" name="graduation" id="graduation" /> <br>
+
+            <label for="password">Password</label>
+            <input type="password" name="confirm pass" id="confirm pass" /> <br />
+
+            <label for="confirm pass">Confirm password</label>
+            <input type="password" name="confirm pass" id="confirm pass" /> <br />\
+
+            <label for="region"> Region</label>
+            <select name="region" id="region">
+               <option value="nr">North rift </option>
+               <option value="sr">South rift</option>
+               <option value="ny">Nyanza</option>
+               <option value="ck">Central Kenya</option>
+               <option value="c">Coast</option>
+            </select>
+            <br>
+
+
+            <label for="gender">Gender</label>
+            <input type="radio" name="male" id="male"> <label for="Male">Male</label>
+            <input type="radio" name="female" id="female"> <label for="female">Female</label> <br>
+
+            <input type="checkbox" name="terms" id="terms"> <label for="terms"> I agree to the companies Terms of service and Honor code.</label> <br>
+
+            <input type="checkbox" name="maillist" id="terms"> <label for="maillist">I accept to receive weekly emails on company product releases</label>
+
+            <br />
+
+            <input type="submit" value="sign up" />
+            
+        </form>
+    </body>
+ </html>
+    
+    
+    
